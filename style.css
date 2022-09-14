@@ -1,0 +1,77 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://www.clashofclans-dicas.com/wp-content/uploads/2020/08/mago-festeiro-no-8-aniversario-clash-of-clans.jpg");
+    background-color: #000000; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin: 0;
+  
+  }
+
+  .cont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+   
+  }
+  
+  .container {
+    margin-left: 40px;
+    text-align: center;
+    width: 410px;
+   height: auto;
+   background:#48124ea1;
+   border-radius: 8px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 20px 0 5px;
+    font-size: 70px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
